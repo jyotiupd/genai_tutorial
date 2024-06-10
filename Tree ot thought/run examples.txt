@@ -1,0 +1,2 @@
+ python run_expr.py one_shot_with_cot data\benchmarks\sudoku\4x4_sudoku_puzzles1.json
+ python run_expr.py tot data\benchmarks\sudoku\4x4_sudoku_puzzles1.json

@@ -1,0 +1,5 @@
+flask
+openai
+docx
+langchain
+reportlab

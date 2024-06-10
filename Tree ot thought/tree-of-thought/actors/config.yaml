@@ -1,0 +1,7 @@
+chatbot:
+    type: "openai"
+    max_context_length: 8000
+    include_chat_history_in_query: false
+openai:
+    model: <model_name>
+    api_key: ''
