@@ -1,0 +1,133 @@
+Output Context: Elwyn Vaughan, Plaid Cymru County Councillor and one of our monthly columnists, tells us that the company that wanted our water for free, is running dry The company that wanted to take water from Powys on the cheap rather than mend its own leaks is now laden with a mountain of debt after paying millions to shareholders rather than invest in the ageing infrastructure. Such is the risk to the viability of the company that the Government may well have to take control of it.
+
+A classic case of charlatans having stripped 72bn of funds from water companies whilst leaving them with circa 65bn of debt. A failed privatisation of a failed ideology which will cost all of us as residents and taxpayers.
+
+Water companies are now saying that bills will have to increase 40% to fix crumbling infrastructure. This after three decades since privatisation, that gave their shareholders more than 72 billion in dividends.
+
+And this from Thames Water which wants to extract up to 155m litres of water a day from Efyrnwy to boost supplies to London paying a mere 3p a tonne or 1,000 litres.
+
+Thames Water bosses were awarded bonuses of 2.4m in 2020 and 2021 despite the company losing up to a quarter of all its water from leaks.
+
+Likewise, they failed to build the long-awaited new reservoir at Abingdon, a proposal which has been circulating since 2006 and The Gateway Water Treatment Works in Beckton, east London takes water from the Thames Estuary, treats it and makes drinking water should also be used rather than switched off.
+
+The staggering combined debt pile built up by the UK's 12 water companies means that huge swathes of cash are being spent on interest payments  money that could be spent cleaning up polluted rivers or fixing leaky pipes.
+
+Thames Water have already had a 500million cash injection in March from its shareholders, who include the state-backed China Investment Corporation and the Abu Dhabi Investment Authority.
+
+United Utilities and Severn Trent, which are both listed on the London Stock Exchange, have 8.2billion and 7.16billion debts respectively.
+
+They have also recently handed shareholders a combined 562 million in dividends.
+
+Other companies including Anglian Water, Southern Water and Yorkshire Water all have individual debts of more than 5billion.
+
+Privatisation of the industry paved the way for foreign investors to seize control of companies, extracting billions in dividends and piling up debts yet leave us as taxpayers to foot the bill and the liabilities.
+
+Water is a fundamental resource and should not be privatised for multinational corporations and banks to plunder whilst leaving us to pay their bills. It's our resource, our asset and we as the public should benefit from it not spivs and charlatans."
+
+Unknown
+###############################################################
+Output Instructions: Tasks for the Chief Editor:
+1. Forget previous Article Text, Keyword(s), Topic(s), Topics list, Keywords list, and Instructions. Make all these variables as null before starting further processing. Proceed further only after the conversations and inputs have been forgotten.
+2. All checks should ignore case sensitiveness, nospaces, with spaces, and ending with special characters, unless specified explicitly.
+3. Everyone in the discussion has to read the provided Article Text carefully to understand the context.
+4. You have to give the final response on whether the article should be APPROVED or REJECTED or Manual Review based on the editors' responses. You have to provide a detailed reason behind your decision taking into account the editors' reasons, the keyword, and any desired or undesired topic, and why do you think the editors are correct/incorrect in making their choice. You have to provide the output in the format mentioned at the last.
+5. As the Chief Editor you have to make sure no Reporter output is missed due to oversight, no Editor output is missed due to oversight, and the decision made by the Editors considering all the information is correct.
+6. You have to provide a detailed reason or explanation, for the given output, highlighting any keywords, desired/undesired topics, and rule names that helped you in reaching the decision. Your reason should be based on the reasons given by the Reporters but should not mention the Reporters or Editors.
+7. If the output is APPROVED add the keywords for which the Article Text was APPROVED in the JSON output.
+8. If the output is REJECTED add the Keywords that were used by the Reporters to analyze the Article Text.
+
+Tasks for the Reporters:
+1. The Reporters must perform the tasks as per the instructions provided for them below. They have to provide their responses in the final output in the format mentioned in their specific instructions.
+2. All Reporters must discuss among themselves on the tasks. They can provide alternate views on each other's opinions, build upon them, have contradictory views, and provide further insights on each other's views.
+
+Tasks for the Editors:
+1. Editors must review the Reporters' output and provide their decision of APPROVED or REJECTED. They can provide alternate views on each other's opinions, build upon them, have contradictory views, and provide further insights on each other's views. Editors have to provide their response in the same format as reporters in the output.
+
+Evaluate the Article Text for the keyword ["Severn Trent"] based on the instructions below:
+    - Analyze the given Article Text and respond with APPROVED or REJECTED or Manual Review based on the following instructions.
+    - Below set of criteria are "Exclusion" rule. Use the following criteria to evaluate the Exclusion rule.
+        -- Content Type: The article should not fall under the specified content type from the list: Tables , Listings. If the content type matches any of the specified types, the article must be REJECTED.
+        -- Keyword Relevance: The article should not contain any keywords from the list: Tables , Listings. If any of the keywords are found, the article must be REJECTED.
+        -- Implicit Topic Relevance: The article should not discuss topics that are indirectly related to the specified key topic mentioned in the list: Tables , Listings. If the article addresses a topic that is a type or subtype of the specified key topic, the article must be REJECTED.
+    - Do not evaluate for any keyword other than ["Severn Trent"]. If all the criteria are fulfilled Respond with APPROVED. If any criterion is not fulfilled respond with REJECTED.
+    - Do not evaluate for any other criteria other than ones mentioned above.
+    - Be as descriptive as possible when providing the reason for the output. Provide reasons for all the criteria mentioned in step above. Include keyword, criteria, and the desired or undesired topic in the reason.
+    - Respond with APPROVED if all the criteria for all the rules are met. If all the rules are not followed respond with REJECTED.
+    - The response should be of the following format:
+        Reporter Decision - APPROVED or REJECTED
+        Reporter Reasoning - Detailed and descriptive reason behind the output
+
+Instructions for the Editors:
+    - Check if all the mentioned Reporter's comments are correct based on the Article Text provided. If any of the comments are incorrect respond with MANUAL REVIEW and mention specifically why the comment is incorrect in your response. Only If all the comments are correct, move to the next instruction.
+    - For the Reporter's comments, if any comment mentions the keyword is not found/mentioned/present in the Article Text while other comments found the keyword, consider the comment that says keyword was not found/present/mentioned as incorrect and refer to Instruction 1 for the output.
+    - Use the following criteria for this instruction
+        -- If the Article Text has been APPROVED by the Reporter for All Mentions rule, it should be directly APPROVED. If it is REJECTED, the reporter's decision on All Mentions rule must be discarded for the rest of the analysis.
+        -- If any Reporter has APPROVED the article, check if the Reporter's reasoning is correct. If the reporter is correct for that keyword respond with APPROVED regardless of the output of the other Reporters.
+        -- In case any Reporter has marked the Article Text as REJECTED, but his reasoning seems to be incorrect, respond with Manual Review and add the reasons in your response.
+        -- In case any Reporter has marked the Article Text as APPROVED, but his reasoning seems to be incorrect, respond with Manual Review and add the reasons in your response.
+        -- If the Article text is REJECTED by all the Reporters, cross check the output with other Editors. If the Reporters' reasons seem correct respond with REJECTED and add the reasons in your response.
+        -- If the Article text is APPROVED by all the Reporters, cross check the output with other Editors. If the Reporters' reasons seem correct respond with APPROVED and add the reasons in your response.
+    - Provide as detailed a reason as you can behind your output and how the comments from the Reporters helped you reach the output. Also mention if you agree or disagree with the Reporters' comments.
+    - The response should be of the following format:
+        Editor Decision - APPROVED or REJECTED
+        Editor Reasoning - Detailed and descriptive reason behind the output
+
+Provide all responses from the 3 reporters, detailed discussion and analysis between the 2 editors, and the final decision by you (the Chief Editor).
+At the end add your decision in the below given JSON format based on the JSON schema below - 
+
+"properties" - "Output" - "type": "string"
+             - "Reason" - "type": "string"
+             - "Keyword" - "type": "list"
+             - "Confidence" - "type": "float"
+
+"required": ["Output","Reason","Keyword","Confidence"]
+
+ENSURE YOUR DECISION IS IN JSON FORMAT AND IS ADDED IN THE FINAL OUTPUT. ALSO MAKE SURE ALL THE MENTIONED KEYS ARE PRESENT IN THE JSON.
+###############################################################
+Output:
+Reporter 1 Decision - APPROVED
+Reporter 1 Reasoning - The article discusses the debt and issues faced by water companies, including Severn Trent. The content type is not a table or listing, and the keyword "Severn Trent" is relevant to the article. There are no implicit topics related to tables or listings.
+
+Reporter 2 Decision - APPROVED
+Reporter 2 Reasoning - The article is not a table or listing, and it contains the keyword "Severn Trent" in a relevant context. The article discusses the debt and problems faced by water companies, including Severn Trent. There are no exclusion criteria met, as the article does not discuss tables or listings.
+
+Reporter 3 Decision - APPROVED
+Reporter 3 Reasoning - The article is about the debt and issues faced by water companies, including Severn Trent. The content type is not a table or listing, and the keyword "Severn Trent" is relevant to the article. There are no implicit topics related to tables or listings.
+
+Editor 1 Decision - APPROVED
+Editor 1 Reasoning - I agree with all the reporters' comments. The article discusses the debt and issues faced by water companies, including Severn Trent. The content type is not a table or listing, and the keyword "Severn Trent" is relevant to the article. There are no implicit topics related to tables or listings.
+
+Editor 2 Decision - APPROVED
+Editor 2 Reasoning - I concur with the other editor and the reporters. The article is about the debt and problems faced by water companies, including Severn Trent. The content type is not a table or listing, and the keyword "Severn Trent" is relevant to the article. There are no implicit topics related to tables or listings.
+
+Chief Editor Decision:
+{
+    "Output": "APPROVED",
+    "Reason": "The article discusses the debt and issues faced by water companies, including Severn Trent. The content type is not a table or listing, and the keyword 'Severn Trent' is relevant to the article. There are no implicit topics related to tables or listings. All reporters and editors have provided valid reasons for approving the article.",
+    "Keyword": ["Severn Trent"],
+    "Confidence": 1.0
+}
+###############################################################
+Eval criteria:
+- Question 1: Do the Reporter Responses contain information that is not provided in the Article? (Y or N)
+- Question 2: Is there any disagreement between the Reporters' Responses and Context of the Article? (Y or N)
+- Question 3: Did the Editors' responses evaluate the Reporters' responses in the context of the Article? (Y or N)
+- Question 4: Does the Chief Editor's decision utilize all the responses and reasons provided by the Editors and Reporters? (Y or N) 
+- Question 5: Are the responses provided only based on the provided keyword? (Y or N)
+- Question 6: Was the response provided only after evaluating contextual connection with respective keyvalues? (Y or N)
+- Count how many questions have been asked above. (output a number)
+- For each question asked above, is there an answer provided by you?
+###############################################################
+Eval points:
+Question 1: Y -> 0 Point
+            N -> 1 Point
+Question 2: Y -> 0 Point
+            N -> 1 Point
+Question 3: Y -> 1 Point
+            N -> 0 Point
+Question 4: Y -> 1 Point
+            N -> 0 Point
+Question 5: Y -> 1 Point
+            N -> 0 Point
+Question 6: Y -> 1 Point
+            N -> 0 Point

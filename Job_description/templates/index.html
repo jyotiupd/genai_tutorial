@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.8/marked.js"
+        integrity="sha512-FK9k7B+9uchA23lfM8yV2HrT6pEe0SxtKQHsRmatjvoVPp9bL4Q/hBYxYonODuPfcmyEnINk4p3B/lrUzewchA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Job Seeker</title>
+</head>
+
+<body>
+    <div class="main_container">
+        <div class="header_container">
+            <h3>Placement Portal</h3>
+            <h3>Cognizant</h3>
+        </div>
+        <div class="input_container">
+            <div class="main_inp_div">
+                <form>
+                    <div>
+                        <label for="job_title">Job Title <span style="color: #ff0000">*</span></label>
+                        <input type="text" id="job_title" name="job_title" value="Jr Data Engineer" required>
+        
+                        <label for="exp">Total Experience<span style="color: #ff0000">*</span></label>
+                        <input type="text" id="exp" name="exp" value="2+ years" required>
+                    </div>
+        
+                    <div>
+                        <label for="tech_skill">Technical Skills <span style="color: #ff0000">*</span></label>
+                        <input type="text" id="tech_skill" name="tech_skill" value="SQL, Big data, Azure cloud, Python" required>
+
+                        <label for="domain_exp">Domain Expertise <span style="color: #ff0000">*</span></label>
+                        <input type="text" id="domain_exp" name="domain_exp" value="Finance, Logistics, retail" required>
+                    </div>
+
+                    <div>
+                        <label for="qualification">Qualification <span style="color: #ff0000">*</span></label>
+                        <input type="text" id="qualification" name="qualification" value="Bachelors in statistics or computer science or relevant on the same">
+
+                        <label for="responsibilities">Relevant experience <span style="color: #ff0000">*</span></label>
+                        <input type="text" id="responsibilities" name="responsibilities" value="2 years">
+                    </div>
+                </form>
+
+            </div>
+            <div class="submit_btn_div">
+                <button type="submit" id="jd_create">Generate job description & questionnaire</button>
+                <!-- <button type="submit" id="ques_create">Get Question</button> -->
+            </div>
+        </div>
+        <div class="output_container">
+            <div class="op_1">
+                <div class="div_header">
+                    <h4>Job Description</h4>
+                </div>
+                <div class="div_content" id="op_1">
+                </div>
+            </div>
+            <div class="op_1">
+                <div class="div_header">
+                    <h4>Questionnaire</h4>
+                </div>
+                <div class="div_content" id="op_2">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../static/script/script.js"></script>
+</body>
+
+</html>

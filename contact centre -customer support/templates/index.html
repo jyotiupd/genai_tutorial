@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenAI Chatbot</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        #chat-container {
+            max-width: 600px;
+            margin: 50px auto;
+            border: 1px solid #ddd;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+        #chat {
+            padding: 20px;
+            height: 400px;
+            overflow-y: auto;
+        }
+        #input-container {
+            display: flex;
+            padding: 10px 20px;
+            border-top: 1px solid #ddd;
+            align-items: left;
+        }
+        #userInput {
+            flex: 1;
+            padding: 10px 15px;
+            border-radius: 25px;
+            border: 1px solid #ddd;
+            outline: none;
+        }
+        #sendButton {
+            margin-left: 10px;
+            padding: 8px 15px;
+            border: none;
+            border-radius: 25px;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        #sendButton:hover {
+            background-color: #0056b3;
+        }
+        .message {
+            margin-bottom: 15px;
+        }
+        .user-message, .bot-message {
+            display: flex;
+            align-items: center;
+        }
+        .user-message {
+            justify-content: flex-end;
+            background-color: #DCF8C6;
+        }
+        .bot-message {
+            justify-content: flex-start;
+            background-color: #F1F1F1;
+        }
+        .bot-icon, .user-icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin-right: 10px;
+            background-size: cover;
+        }
+        .bot-icon {
+            background-image: url('path_to_bot_icon.png');
+        }
+        .user-icon {
+            background-image: url('path_to_user_icon.png');
+        }
+        .message-content {
+            padding: 8px 15px;
+            border-radius: 18px;
+            display: inline-block;
+        }
+        .user-message .message-content {
+            border-bottom-right-radius: 5px;
+            background-color: #DCF8C6;
+        }
+        .bot-message .message-content {
+            border-bottom-left-radius: 5px;
+            background-color: #F1F1F1;
+        }
+</style>
+</head>
+<body>
+<div id="chat-container">
+<div id="chat"></div>
+<div id="input-container">
+<input type="text" id="userInput" placeholder="Ask something..." onkeydown="if(event.keyCode===13 && !event.shiftKey){askQuestion();}">
+<button id="sendButton" onclick="askQuestion()"><i class="fas fa-paper-plane"></i></button>
+</div>
+</div>
+
+
+
+    <script>
+        async function askQuestion() {
+            let question = document.getElementById("userInput").value;
+            if (question.trim() === '') return;
+
+
+
+            let chat = document.getElementById("chat");
+
+
+
+            // Display user's question
+            let userMessageElement = document.createElement("div");
+            userMessageElement.classList.add("message", "user-message");
+            userMessageElement.innerHTML = '<span class="user-icon"></span><span class="message-content">' + question + '</span>';
+            chat.appendChild(userMessageElement);
+
+
+
+            // Clear user's input immediately
+            document.getElementById("userInput").value = "";
+
+
+
+            // Fetch answer from Flask backend
+            let response = await fetch('/ask', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ "question": question })
+            });
+            let data = await response.json();
+
+
+
+            // Display bot's answer
+            let botMessageElement = document.createElement("div");
+            botMessageElement.classList.add("message", "bot-message");
+            botMessageElement.innerHTML = '<span class="bot-icon"></span><span class="message-content">' + data.answer + '</span>';
+            chat.appendChild(botMessageElement);
+
+
+
+            // Auto scroll chat to bottom
+            chat.scrollTop = chat.scrollHeight;
+        }
+</script>
+</body>
+</html>
